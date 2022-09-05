@@ -5,6 +5,39 @@
 <p>To run the app, compile CityApplication.java.</p>
 <p>To add, edit or delete l10n resources, use /src/resources</p>
 
+<h2>How to run the app</h2>
+<h3>Step 0 - install Java</h3>
+<h6>Skip this step if you already have it installed</h6>
+<ol>
+  <li>Open a command prompt by typing <code>cmd</code> in the search bar and press Enter.</li>
+  <li>Run the following command:</li>
+  <code>java -version</code>
+  <li>If you don't see any java version - go to <a href="https://www.oracle.com/java/technologies/downloads/#jdk17-windows">official Oracle's website</a> and download the latest java version.</li>
+  <li>Run the java installation file. It should do everything for you.</li>
+</ol>
+
+<h3>Step 1 - clone the app's repo</h3>
+<ol>
+  <li>Click "Fork" in the top right corner of this page.</li>
+  <li>Unpack the project in your file system.</li>
+  <li>Copy the project location path.</li>
+</ol>
+
+<h3>Step 2 - compile the .java file</h3>
+<ol>
+  <li>Open a command prompt by typing <code>cmd</code> in the search bar and press Enter.</li>
+  <li>Enter <code>cd</code> command and go to the copied path and navigate to the "src" folder.</li>
+  <p>For example: <code>cd C:\Downloads\java-i18n-with-Crowdin\src</code> will take you to the project folder.</p>
+  <li>Run the compile command: <code>javac CityApplication.java</code></li>
+</ol>
+
+<h3>Step 3 - final - run the app</h3>
+<ul>
+  <li>In the same folder, run the <code>java CityApplication.java</code> command.</li>
+  <li>Optional - feel free to explore and add functionality to the current project.</li>
+  <h6>You could connect this app to a database, add login functionality, or, most importantly - add a new ResourseBundle to your own locale!</h6>
+</ul>
+
 <h2>Next Steps & More Information</h2>
 <ul>
   <li>Visit Crowdin <a href="https://crowdin.com/" target="_blank">website</a>.</li>
